@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Satisfaction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=DM+Sans&amp;display=swap'>
+    <link rel="stylesheet" href="./css/styletest.css">
+
+</head>
+
+<body>
+
+
+    <!-- partial:index.html -->
+    <div>
+        <form class="fr" action="">
+            <label class="fr__label" for="face-rating"><h3>Les Entrées ?</h3></label>
+            <div class="fr__face" role="img" aria-label="Straight face">
+                <div class="fr__face-right-eye" data-right></div>
+                <div class="fr__face-left-eye" data-left></div>
+                <div class="fr__face-mouth-lower" data-mouth-lower></div>
+                <div class="fr__face-mouth-upper" data-mouth-upper></div>
+            </div>
+            <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+        </form>
+        <br>
+
+
+        <form class="en" action="">
+            <label class="en__label" for="face-rating-other"><h3>Le Plat Principal ?</h3></label>
+            <div class="en__face" role="img" aria-label="Straight face">
+                <div class="en__face-right-eye" data-right></div>
+                <div class="en__face-left-eye" data-left></div>
+                <div class="en__face-mouth-lower" data-mouth-lower></div>
+                <div class="en__face-mouth-upper" data-mouth-upper></div>
+            </div>
+            <input class="en__input" id="face-rating-other" type="range" value="2.5" min="0" max="5" step="0.1">
+        </form>
+        <br>
+
+
+        <form class="ja" action="">
+            <label class="ja__label" for="face-rating-ja"><h3>Les Désserts ?</h3></label>
+            <div class="ja__face" role="img" aria-label="Straight face">
+                <div class="ja__face-right-eye" data-right></div>
+                <div class="ja__face-left-eye" data-left></div>
+                <div class="ja__face-mouth-lower" data-mouth-lower></div>
+                <div class="ja__face-mouth-upper" data-mouth-upper></div>
+            </div>
+            <input class="ja__input" id="face-rating-ja" type="range" value="2.5" min="0" max="5" step="0.1">
+            <br>
+            </form>
+
+    </div>
+
+
+
+    <!-- partial -->
+    <script src="./js/animscript.js"></script>
+
+</body>
+
+</html>
